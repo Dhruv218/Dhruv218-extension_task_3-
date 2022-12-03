@@ -1,0 +1,28 @@
+{
+    "name": "Title display",
+    "description": "title of current tab",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "storage", 
+        "declarativeContent",
+        "tabs",
+        "activeTab",
+        "scripting",
+        "background",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://www.linkedin.com/*"
+    ],
+   
+     
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "/title.png",
+        "32": "/title.png",
+        "48": "/title.png"
+    }
+}
